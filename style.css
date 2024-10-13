@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    margin: 20px 5px;
+    padding: 0;
+    color: white; 
+    width: 350PX;   
+}
+.banner1 h1{
+    font-family: cursive;
+    margin: 3px;
+}
+.banner1{
+    margin: 0;
+    padding: 0;
+    border: 2px solid rgb(1, 162, 255);
+    width: 350px;
+    height: 45px;
+}
+body p{
+    margin: 40px 0;
+}
+.photo{
+    width: 350px;
+}
