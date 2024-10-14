@@ -1,24 +1,61 @@
-body{
-    background-color: black;
-    margin: 20px 5px;
-    padding: 0;
-    color: white; 
-    width: 350PX;   
-}
-.banner1 h1{
-    font-family: cursive;
-    margin: 3px;
-}
-.banner1{
+/* Reset default margin and padding */
+* {
     margin: 0;
-    padding: 0;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+/* Body and HTML settings */
+body, html {
+    width: 100%;
+    background-color: black;
+    color: white; 
+    font-family: Arial, sans-serif;
+    cursor: default;
+}
+
+/* Header styles */
+.banner1 {
+    margin: 0;
+    padding: 10px;
     border: 2px solid rgb(1, 162, 255);
-    width: 350px;
-    height: 45px;
+    text-align: center;
+    width: 100%;
 }
-body p{
-    margin: 40px 0;
+
+.banner1 h1 {
+    font-family: cursive;
 }
-.photo{
-    width: 350px;
+
+/* Content styles */
+.content {
+    padding: 15px;
+    max-width: 1000px; /* Max width for larger screens */
+    margin: 0 auto; /* Center the content */
 }
+
+/* Paragraph styles */
+.content p {
+    margin: 20px 0;
+    line-height: 1.4; /* Improve readability */
+}
+
+/* Image styles */
+.photo {
+    width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px 0; /* Spacing around images */
+}
+footer{
+    background-color: grey;
+}
+.num{
+    cursor: pointer;
+    user-select: all;
+
+}
+audio {
+    display: none; /* Hides the audio player */
+  }
+  
+ 
