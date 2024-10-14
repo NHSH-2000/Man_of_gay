@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAN OF GAY</title>
+    <title>Man OF Gay</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.quasar.dev/css/index.css">
@@ -11,22 +11,18 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-        
 </head>
 <body>
+    <audio id="myAudio" loop src="assets/audio track.mp3"></audio>
     
-    <header class="banner1">
-        <h1 align="center">MAN OF GAY</h1>
-    </header>
+    <div class="banner1">
+        <h1 align="center">Man OF Gay</h1>
+    </div>
+    
+    <button id="playButton"><b><i><u>click this For watch Secret item</u></i></b></button>
+
     <main class="content">
-          <audio id="myAudio" autoplay loop>
-            <source src="assets/Chandrapala චන්ද්‍රපාල  Meme Remix (mp3cut.net).mp3" type="audio/mpeg">
-            Your browser does not support the audio tag.
-          </audio>
-          
         <p align="justify">
             <span class="text">මොහු නමින් "දහම් ශ්‍රී සංකත" ය. ශ්‍රී ලන්කාවේ දකුණු පළාතෙහි ජීවත් වන පවුලක විශේෂ අවස්ථා සහිත එකම දරුවා වූ මොහුට තවත් එක් සහෝදරියෙකු සිටී.</span>
         </p>
@@ -51,11 +47,19 @@
             <span class="text">DAHAM'S SPA නමින් තංගල්ල ප්‍රදේශයේ සම්බාහන මධ්‍යස්ථානයක් පවත්වාගෙන යන මොහුගේ දුරකථන අංකය +94-71 441 8191 වේ. මෙමහින් ඔබට කෙටි පණිවිඩ හෝ ඇමතුම් ලැබුණු විට වහාම ළමා හා කාන්තා කටයුතු අංශයට දැනුම් දීම ඔබගේ ආරක්ශාව උදෙසා ගත හැකි හොදම පියවරයි.</span>
         </p>
     </main>
+    
     <footer>
         <p><i class="fa-solid fa-phone"></i> Contact Daham : <p class="num">+94-71 441 8191</p> </p>
-        
         <p>&copy; 2024 Kolu Daham Website. All Rights Reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById('playButton').addEventListener('click', function() {
+            const audio = document.getElementById('myAudio');
+            audio.play(); // Start playing the audio
+            this.style.display = 'none'; // Hide the button after the first click
+        });
+    </script>
     
 </body>
 </html>

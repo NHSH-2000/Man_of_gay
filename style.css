@@ -16,16 +16,23 @@ body, html {
 
 /* Header styles */
 .banner1 {
-    margin: 0;
-    padding: 10px;
-    border: 2px solid rgb(1, 162, 255);
+    margin: auto;
+    padding: auto;
+    
     text-align: center;
-    width: 100%;
+    width: 300px;
+    border: 2px dashed rgba(255, 0, 0, 0.349);
+    border-radius: 30px;
+    
 }
 
 .banner1 h1 {
-    font-family: cursive;
+    font-family: Monospace;
+    font-size: 45px;
 }
+
+
+
 
 /* Content styles */
 .content {
@@ -54,8 +61,14 @@ footer{
     user-select: all;
 
 }
-audio {
-    display: none; /* Hides the audio player */
-  }
-  
- 
+
+body button{
+    display: block;
+    margin: 50px auto auto 5px;
+    padding: 20px 20px;
+    background-color: #007bff;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: larger;
+}
